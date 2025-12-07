@@ -1,0 +1,2 @@
+promoter_id,chr,tss,strand,window_start,window_end,genome,source
+GHRL3,chr3,10290734,-,10289734,10290834,GRCh38,EPD
