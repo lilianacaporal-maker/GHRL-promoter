@@ -1,0 +1,8 @@
+source: "EPD (Eukaryotic Promoter Database)"
+genome: "GRCh38"
+coordinates: "chr3:10289734-10290834 (-)"
+tss: 10290734
+window: "-1000..+100 relative to TSS"
+download_date: "2025-12-06"
+url: "https://epd.epfl.ch/"
+notes: "FASTA downloaded directly from EPD; no sequence modifications."
