@@ -1,0 +1,25 @@
+
+name: ghrl-promoter
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10        # Versión recomendada para compatibilidad
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pybigwig
+  - biopython
+  - plotly
+  - scipy
+  - r-base=4.3         # Versión que mencionaste
+  - r-tidyverse
+  - bioconductor-tfbstools
+  - bioconductor-biostrings
+  - bioconductor-genomicranges
+  - r-clusterprofiler
+  - pip
+  - pip:
+      - pre-commit
+
