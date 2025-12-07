@@ -1,0 +1,14 @@
+
+cff-version: 1.2.0
+title: "In silico analysis of the human GHRL promoter"
+message: "If you use this repository, please cite it as follows."
+authors:
+  - family-names: Caporal-Hernández
+    given-names: Liliana
+    affiliation: Universidad Autónoma de Baja California (UABC)
+    ORCID: "https://orcid.org/0000-0002-5125-7995"
+version: "1.0.0"
+date-released: "2025-12-06"
+repository-code: "https://github.com/lilianacaporal-maker/GHRL-promoter"
+license: "MIT AND CC-BY-4.0"
+doi: "10.5281/zenodo.TBD"
