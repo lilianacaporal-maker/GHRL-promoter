@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.10        # Versión recomendada para compatibilidad
+  - python=3.10        # Recommended version for reproducibility
   - numpy
   - pandas
   - matplotlib
@@ -13,7 +13,7 @@ dependencies:
   - biopython
   - plotly
   - scipy
-  - r-base=4.3         # Versión que mencionaste
+  - r-base=4.3         
   - r-tidyverse
   - bioconductor-tfbstools
   - bioconductor-biostrings
