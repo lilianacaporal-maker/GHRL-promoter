@@ -1,0 +1,6 @@
+# Promoter coordinates (GRCh38)
+# Format: promoter_name	chromosome:position	strand
+GHRL1	chr3:10292947	-
+GHRL2	chr3:10290223	-
+GHRL3	chr3:10290734	-
+GHRL4	chr3:10304024	-
