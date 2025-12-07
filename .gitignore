@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datos pesados/intermedios (no versionar)
+data/raw/*.bw
+data/raw/*.bam
+data/raw/*.bigWig
+data/raw/*.fastq
+data/processed/*.bed
+results/supplementary/interactive_html/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
