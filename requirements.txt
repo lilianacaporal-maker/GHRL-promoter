@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+pybigwig>=0.3
+biopython>=1.83
+plotly>=5.23
+scipy>=1.11
