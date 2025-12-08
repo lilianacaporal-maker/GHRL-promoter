@@ -1,4 +1,25 @@
 
+# Resultados (no publish)
+results/*.csv
+results/*.tsv
+results/*.parquet
+results/*.png
+results/*.pdf
+results/*.svg
+results/*.json
+
+# Datos crudos/externos (no version)
+data/raw/
+data/processed/
+data/external/*.fa
+data/external/*.fasta
+data/raw/*.bw
+data/raw/*.bigWig
+data/raw/*.bigBed
+data/raw/*.bam
+data/raw/*.fastq
+data/raw/*.bed
+
 # Python
 __pycache__/
 *.pyc
