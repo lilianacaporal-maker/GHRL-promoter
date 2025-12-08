@@ -102,6 +102,15 @@ This repository contains resources to study the promoter region of the human **G
 ---
 
 
+## Data & Results Policy
+This repository **does not** include raw data, external references (FASTA/BigWig), or generated results (CSV/figures), because the associated manuscript is under preparation and not yet published.
+
+- **Do not commit** any files under `data/raw/`, `data/external/`, or `results/`.
+- A `.gitignore` and a `pre-commit` hook are configured to prevent accidental publishing of sensitive or unpublished outputs.
+- To reproduce locally, download public tracks (EPD/Ensembl, UCSC, ENCODE) and run the scripts with `--dry-run` for validation, or without it to generate outputs in your local machine. Outputs are **not tracked** by Git.
+---
+
+
 ## 📂 Repository Structure
 ghrelin-promoter-analysis/
 ├── README.md                # Project documentation
