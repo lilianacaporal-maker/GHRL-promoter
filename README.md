@@ -19,6 +19,25 @@ To reproduce the analysis with open-access tools, we recommend using **RSAT** ([
 - **Affinity calculation**: Performed in R using Bioconductor packages (`TFBSTools`, `Biostrings`, `GenomicRanges`, `Gviz`).
 - **Evolutionary conservation**: phastCons and phyloP scores from UCSC BigWig files.
 - **Epigenetic profiling**: DNase-seq, ATAC-seq, H3K4me3, H3K27ac from ENCODE.
+- 
+## Methods (Python) — Evolutionary Conservation, Epigenetics, and CpG Islands
+
+### 2.4 Evolutionary Conservation (Python)
+We assessed conservation within the putative GHRL promoter and proximal region (`chr3:10288734–10292734`) using **UCSC 100-way vertebrate alignments**:
+- Metrics: **phastCons100way** (probability of conservation per base) and **phyloP100way** (site-specific acceleration/conservation scores).
+- Environment: Linux (Ubuntu 24.04.3 LTS on WSL2), Python 3.10, libraries: `pyBigWig`, `numpy`, `pandas`, `matplotlib`.
+- Workflow: read BigWig files → extract values for the specified window → detect conserved peaks with threshold **≥ 0.8** for each metric → compute **Pearson** and **Spearman** correlations → (optional) plot region profiles.
+- **Reproducibility**: scripts are provided under `src/python/` and can be run locally with BigWig files downloaded from UCSC (hg38/hg19), but **no results are versioned**.
+
+Example (dry-run, no outputs written):
+```bash
+python src/python/02_conservation_phastcons_phylop.py \
+  --phastcons /path/to/hg38.phastCons100way.bw \
+  --phylop    /path/to/hg38.phyloP100way.bw \
+  --chrom chr3 --start 10288734 --end 10292734 \
+  --threshold 0.8 \
+  --dry-run
+
 
 ---
 
