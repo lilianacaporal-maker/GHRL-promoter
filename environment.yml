@@ -1,25 +1,20 @@
 
-name: ghrl-promoter
+name: ghrelin-promoter
 channels:
   - conda-forge
-  - bioconda
+  - defaults
 dependencies:
-  - python=3.10        # Recommended version for reproducibility
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - pybigwig
-  - biopython
-  - plotly
-  - scipy
-  - r-base=4.3         
-  - r-tidyverse
-  - bioconductor-tfbstools
-  - bioconductor-biostrings
-  - bioconductor-genomicranges
-  - r-clusterprofiler
+  - python=3.11
   - pip
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - pybigwig>=0.3
+  - biopython>=1.83
+  - plotly>=5.23
+  - scipy>=1.11
+  - jupyter>=1.0
+  - ipykernel>=6.29
   - pip:
-      - pre-commit
-
+      - ""
